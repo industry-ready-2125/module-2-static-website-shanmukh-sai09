@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #fcf5eb;
+}
+
+header {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    background-color: #fcf5eb;
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.whatsapp-logo-img {
+    width: 130px;
+}
+
+.download-btn {
+    background-color: #25d366;
+    color: #1c1e21;
+    border: 1px solid #1c1e21;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border-radius: 24px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+main {
+    background-color: #fcf5eb;
+}
+
+.first-section {
+    background-image: url(https://scontent.whatsapp.net/v/t39.8562-34/316546300_547692113846445_7299710494491288098_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=7RPIxDvm4J4AX9kvva5&_nc_ht=scontent.whatsapp.net&oh=01_AdSESl0wkITqtCceFN-t_5DFcl5VWyAe27I2tw262BZS3Q&oe=65EFFE25);
+    height: 100vh;
+    border-radius: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.first-section h1 {
+    font-size: 5rem;
+    margin: 10px;
+    width: 400px;
+}
+
+.first-section p {
+    font-size: 1.25rem;
+    margin: 10px;
+    width: 400px;
+}
+
+.first-section div {
+    margin-left: 200px;
+}
+
+.first-section .download-btn {
+    margin-top: 100px;
+}
+
+.decorate-img {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.decorate-img img {
+    width: 90vw;
+    text-align: center;
+}
+
+.third-section {
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.third-section p {
+    width: 60vw;
+}
+
+.feature-one {
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+    gap: 200px;
+}
+
+.matter {
+    width: 30vw;
+    margin-top: 150px;
+}
+
+.matter h2 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+}
+
+.matter p {
+    font-size: 1.25rem;
+    margin: 10px 0px;
+}
+
+.matter a {
+    color: #1c1e21;
+}
+
+.matter a:hover {
+    color: #25d366;
+}
+
+.feature-two {
+    background-color: #111B21;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px 0px 50px;
+}
+
+.feature-two span {
+    color: #25d366;
+}
+
+.feature-two .matter a {
+    color: white;
+}
+
+.feature-two .matter a:hover {
+    color: #25d366;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+    gap: 200px;
+}
+
+.feature .image {
+    position: relative;
+}
+
+.feature .image .image-fore {
+    position: absolute;
+    top: 80px;
+    z-index: 2;
+    left: -50px;
+}
+
+
+.big-img {
+    width: 326px;
+}
+
+footer {
+    padding: 100px 250px;
+    background-color: #111B21;
+}
