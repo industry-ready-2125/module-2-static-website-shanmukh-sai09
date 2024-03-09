@@ -28,6 +28,11 @@ li {
     cursor: pointer;
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .whatsapp-logo-img {
     width: 130px;
 }
@@ -42,6 +47,18 @@ li {
     cursor: pointer;
     width: fit-content;
 }
+
+.download-btn span {
+    margin: 10px;
+    margin-right: 0px;
+    position: relative;
+    top: 3px;
+}
+
+.download-icon {
+    width: 20px;
+}
+
 
 main {
     background-color: #fcf5eb;
@@ -66,6 +83,7 @@ main {
     font-size: 5rem;
     margin: 10px;
     width: 400px;
+    font-weight: 400;
 }
 
 .first-section p {
@@ -181,4 +199,36 @@ main {
 footer {
     padding: 100px 250px;
     background-color: #111B21;
+    display: flex;
+    gap: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer th {
+    color: white;
+    font-weight: 100;
+    font-size: 0.75rem;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.footer-download {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+footer td {
+    padding: 10px 90px 10px 0px;
+    text-align: left;
 }
