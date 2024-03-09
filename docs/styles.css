@@ -336,3 +336,51 @@ footer td {
     background-color: #25d366;
     color: #0B141A;
 }
+
+.download-body {
+    background-color: #e6ffda;
+}
+
+.download-header {
+    background-color: #e6ffda;
+}
+
+.download-main {
+    background-color: #e6ffda;
+}
+
+.download-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px;
+}
+
+.download-matter h2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.download-for-windows {
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 70%;
+}
+
+.download-for-windows h3 {
+    padding: 10px 0px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.download-for-windows p {
+    margin-top: 15px;
+    margin-bottom: 45px;
+    font-size: 1.25rem;
+}
+
+.download-for-windows img {
+    width: 150px;
+}
