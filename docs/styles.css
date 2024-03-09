@@ -232,3 +232,107 @@ footer td {
     padding: 10px 90px 10px 0px;
     text-align: left;
 }
+
+.privacy-body {
+    background-color: #111B21;
+    color: white;
+}
+
+.privacy-header {
+    background-color: #111B21;
+    color: white;
+}
+
+.privacy-header a {
+    color: white;
+}
+
+.privacy-main {
+    background-color: #111B21;
+}
+
+.privacy-feature {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 100px;
+}
+
+.green-text {
+    color: #25d366;
+}
+
+.privacy-feature-two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.privacy-feature-two p {
+    font-size: 3rem;
+    text-align: center;
+    width: 75vw;
+    margin-bottom: 50px;
+}
+
+.privacy-feature-two table {
+    width: 75vw;
+    text-align: center;
+}
+
+.privacy-feature-two th {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.privacy-feature-two td {
+    padding: 10px 50px;
+}
+
+.privacy-features {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 100px;
+}
+
+.privacy-features img {
+    border-radius: 28px;
+}
+
+.privacy-features a {
+    color: white;
+}
+
+.privacy-features a:hover {
+    color: #25d366;
+}
+
+.need-more-help {
+    background-color: #0B141A;
+    color: white;
+    padding: 100px 250px;
+}
+
+.need-more-help .heading {
+    padding-bottom: 50px;
+}
+.need-more-help h1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.need-more-help .question {
+    padding: 30px;
+    border: 0.5px solid white;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    margin: 40px 0px;
+    cursor: pointer;
+}
+
+.question:hover {
+    background-color: #25d366;
+    color: #0B141A;
+}
